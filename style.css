@@ -2587,12 +2587,12 @@ body{
     }
     .chars-section .main .cards .cast .actor {
         width: 40%;
-        height: 100%;
+        height: 80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        align-self: flex-start;
+        align-self: center;
         margin-top: 0;
     }
     .chars-section .main .cards .cast .actor p {
