@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="icon" href="barlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Spider Verse</title>
+</head>
+<body>
+
+
+    <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" id="arrow" class="arrow" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg>
+      </a>
+
+
+
+
+
+    <div class="home" id="home">
+
+        <div class="main-logo">
+        <img src="main-logo.png" alt="">
+        </div>
+
+
+        <div class="bar">
+            <!-- <div class="img"> -->
+                <img class="image" src="barlogo.png" alt="">
+            <!-- </div> -->
+            <div class="icon">
+                <a href="#home">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                  </svg>
+                  HOME
+                </a>
+            </div>
+            <div class="icon">
+                <a href="#actors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                      </svg>
+                      ACTORS
+                </a>
+                  
+            </div>
+            <div class="icon" >
+                <a href="#movies">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-film" viewBox="0 0 16 16">
+                        <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+                      </svg>
+                      MOVIES
+                </a>
+            </div>
+            <div class="icon" >
+                <a href="#games">
+                    <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-controller" viewBox="0 0 16 16">
+                        <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z"/>
+                        <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27"/>
+                      </svg>
+                    GAMES
+                </a>
+            </div>
+            <div class="icon" >
+                <a href="#about">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                      </svg>
+                    ABOUT
+                </a>
+            </div>
+            <div class="icon" >
+                <a href="#contact">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                      </svg>
+                    CONTACT
+                </a>
+            </div>
+            <!-- <div class="icon" >
+                <img src="moon-done.png" alt="" id="moon">
+
+                <img src="sun-done.png" alt="" id="sun">
+            </div> -->
+
+        </div>
+    
+    </div>
+    <hr>
+    <!-- --------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------- -->
+
+<div class="chars-section" id="actors">
+    <div class="cast-btn  reveal">
+    <a href="#actors">ACTORS</a>
+
+    </div>
+    <div class="main">
+        <div class="all-chars left">
+            <div class="first chars">
+                <p>Tobey Maguire</p>
+                <div class="img">
+                <img src="img1.png" alt="">
+    
+                </div>
+            </div>
+            <div class="second chars">
+                <p>Andrew Garfield</p>
+                <div class="img">
+                <img src="spider2.png" alt="">
+    
+                </div>
+            </div>
+            <div class="third chars">
+                <p>Tom Holland</p>
+                <div class="img">
+                <img src="img2.png" alt="">
+    
+                </div>
+            </div>
+            <div class="fourth chars">
+                <p>Miles Morales</p>
+                <div class="img">
+                <img src="spider4.png" alt="">
+    
+                </div>
+            </div>
+    
+        </div>
+
+
+
+
+        <div class="card1 cards reveal">
+            <img class="char" src="tobey.png" alt="">
+            <!-- <img class="char-logo" src="spider1logo.png" alt=""> -->
+            <div class="cast">
+                <div class="actor">
+                    <p>Actor</p>
+                    <img src="actor1.jpg" alt="">
+                    <p>Tobey Maguire</p>
+                </div>
+        
+                    <div class="villains">
+                        <p>Villains</p>
+                        <div class="vill">
+                            <div class="vimage">
+                                <img src="villain1.jpg" alt="">
+                                <p>Green Goblin</p>
+                                </div>
+                                <div class="vimage">
+                                <img src="villain2.jpg" alt="">
+                                <p>Doc Ock</p>
+                                </div>
+                                <div class="vimage">
+                                <img src="villain3.jpg" alt="">
+                                <p>Sandman</p>
+                                </div>
+                                <div class="vimage">
+                                <img src="villain4.jpg" alt="">
+                                <p>Venom</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            
+
+            <div class="last">
+                <div class="movies">
+                    <p>Movies</p>
+                    <div class="posters">
+                    <img src="tobey1.jpg" alt="">
+                    <img src="tobey2.png" alt="">
+                    <img src="tobey3.png" alt="">
+                    <img src="tom3.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="infos">
+                    <p>About</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quisquam optio, tempore omnis nam provident. Molestiae maxime saepe a autem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi dolores sunt incidunt inventore dolor nisi id quos obcaecati tempora?
+                    </p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="card2 cards reveal">
+            <img class="char" src="andrew.png" alt="">
+            <!-- <img class="char-logo" src="spider3logo.png" alt=""> -->
+            <div class="cast">
+                <div class="actor">
+                    <p>Actor</p>
+                    <img src="actor2.jpg" alt="">
+                    <p>Andrew Garfield</p>
+                </div>
+        
+                    <div class="villains">
+                        <p>Villains</p>
+                        <div class="vill">
+                            <div class="vimage">
+                                <img src="villain5.jpg" alt="">
+                                <p>Electro</p>
+                                </div>
+                                <div class="vimage">
+                                <img src="villain6.png" alt="">
+                                <p>The Lizard</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            
+
+            <div class="last">
+                <div class="movies">
+                    <p>Movies</p>
+                    <div class="posters">
+                    <img src="andrew1.png" alt="">
+                    <img src="andrew2.png" alt="">
+                    <img src="tom3.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="infos">
+                    <p>About</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quisquam optio, tempore omnis nam provident. Molestiae maxime saepe a autem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi dolores sunt incidunt inventore dolor nisi id quos obcaecati tempora?
+                    </p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    
+    
+        <div class="card3 cards reveal">
+            <img class="char" src="spider33.png" alt="">
+            <!-- <img class="char-logo" src="spider3logo.png" alt=""> -->
+            <div class="cast">
+                <div class="actor">
+                    <p>Actor</p>
+                    <img src="actor3.jpg" alt="">
+                    <p>Tom Holland</p>
+                </div>
+        
+                    <div class="villains">
+                        <p>Villains</p>
+                        <div class="vill">
+                            <div class="vimage">
+                                <img src="villain7.jpeg" alt="">
+                                <p>Mysterio</p>
+                                </div>
+                                <div class="vimage">
+                                <img src="villain8.jpg" alt="">
+                                <p>Vulture</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            
+
+            <div class="last">
+                <div class="movies">
+                    <p>Movies</p>
+                    <div class="posters">
+                    <img src="tom1.jpg" alt="">
+                    <img src="tom2.jpg" alt="">
+                    <img src="tom3.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="infos">
+                    <p>About</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quisquam optio, tempore omnis nam provident. Molestiae maxime saepe a autem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi dolores sunt incidunt inventore dolor nisi id quos obcaecati tempora?
+                    </p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="card4 cards reveal">
+            <img class="char" src="miles.png" alt="">
+            <!-- <img class="char-logo" src="spider4logo.png" alt=""> -->
+            <div class="cast">
+                <div class="actor">
+                    <p>Actor</p>
+                    <img src="spider44.png" alt="">
+                    <p>Miles Moraels</p>
+                </div>
+        
+                    <div class="villains">
+                        <p>Villains</p>
+                        <div class="vill">
+                            <div class="vimage">
+                                <img src="villain1.jpeg" alt="">
+                                <p>Mysterio</p>
+                                </div>
+                                <div class="vimage">
+                                <img src="villain2.jpg" alt="">
+                                <p>Vulture</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            
+
+            <div class="last">
+                <div class="movies">
+                    <p>Movies</p>
+                    <div class="posters">
+                    <img src="miles1.jpg" alt="">
+                    <img src="miles2.png" alt="">
+                    <!-- <img src="tom3.jpg" alt=""> -->
+                    </div>
+                </div>
+    
+                <div class="infos">
+                    <p>About</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quisquam optio, tempore omnis nam provident. Molestiae maxime saepe a autem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi dolores sunt incidunt inventore dolor nisi id quos obcaecati tempora?
+                    </p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<hr>
+<!-- ------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------ -->
+
+<div class="movies" id="movies">
+    <div class="movies-btn">
+        <a href="#movies" class="reveal">MOVIES</a>
+        <p class="para reveal">How to Watch Movies in Order </p>
+    </div>
+
+    <div class="order ">
+        <div class="movie left">
+            <h1>Spider - Man</h1>
+            <img src="tobey1.jpg" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn1">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+        <div class="trailer-info trailer1">
+            <h1>Trailer</h1>
+            <video poster="poster1.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn">
+                <a class="watch" href="#">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+        </div>
+    </div>
+
+
+    <div class="order ">
+        <div class="trailer-info trailer2">
+            <h1>Trailer</h1>
+            <video poster="poster2.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn">
+                <a class="watch " href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+
+        </div>
+        <div class="movie end1 right">
+            <h1>Spider - Man 2</h1>
+            <img src="tobey2.png" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn2">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="order ">
+        <div class="movie start1 left">
+            <h1>Spider - Man 3</h1>
+            <img src="tobey3.png" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn3">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+        <div class="trailer-info trailer3">
+            <h1>Trailer</h1>
+            <video poster="poster3.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn btn3">
+                <a class="watch" href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+
+        </div>
+    </div>
+
+
+    <div class="order ">
+        <div class="trailer-info trailer4">
+            <h1>Trailer</h1>
+            <video poster="poster4.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn ">
+                <a class="watch" href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+
+        </div>
+        <div class="movie end2 right">
+            <h1>The Amazing <br> Spider - Man</h1>
+            <img src="andrew1.png" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn4">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="order ">
+        <div class="movie start2 left">
+            <h1>The Amazing <br> Spider - Man 2</h1>
+            <img src="andrew2.png" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn5">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+        <div class="trailer-info trailer5">
+            <h1>Trailer</h1>
+            <video poster="poster5.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn ">
+                <a class="watch" href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+
+        </div>
+    </div>
+
+
+    <div class="order ">
+        <div class="trailer-info trailer6">
+            <h1>Trailer</h1>
+            <video poster="poster6.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn ">
+                <a class="watch" href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+
+        </div>
+        <div class="movie end3 right">
+            <h1>Spider - Man <br> Home Coming</h1>
+            <img src="tom1.jpg" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn6">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="order ">
+        <div class="movie start3 left">
+            <h1>Spider - Man <br> Far From Home</h1>
+            <img src="tom2.jpg" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn7">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+        </div>
+        <div class="trailer-info trailer7">
+            <h1>Trailer</h1>
+            <video poster="poster7.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn ">
+                <a class="watch" href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+
+        </div>
+    </div>
+
+    <div class="order ">
+        <div class="trailer-info trailer8">
+            <h1>Trailer</h1>
+            <video poster="poster8.jpg" class="info" controls muted loop>
+                <source src="1.mp4">
+              </video>
+              <div class="movie-btn ">
+                <a class="watch" href="">Watch Full Movie</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+              </div>
+              
+        </div>
+        <div class="movie end4 right">
+            <h1>Spider - Man <br> No Way Home</h1>
+            <img src="tom3.jpg" alt="">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique totam distinctio fuga eum. Nesciunt vero natus  
+            </p>
+            <div class="trailer-btn btn8">
+                <a class="" >View Trailer</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+                <span class="span4"></span>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+<hr>
+<!-- ---------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------- -->
+
+<div class="games" id="games">
+    <div class="games-btn">
+        <a href="#movies" class="reveal">GAMES</a>
+        <p class="para reveal">TOP GAMES TO PLAY </p>
+    </div>
+    <div class="all-game">
+
+        <div class="game left">
+            <div class="img">
+                <img class="image1" src="game1.jpg" alt="">
+                <img class="image2" src="game1-3d.png" alt="">
+            </div>
+            <h3>Spider Man Remasterd</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis eos nulla molestiae! Ipsam reiciendis vero animi esse quo eos!
+            </p>
+            <a href="">Buy Now</a>
+        </div>
+
+        <div class="game reveal">
+            <div class="img">
+                <img class="image1" src="game2.jpg" alt="">
+                <img class="image2" src="game2-3d.png" alt="">
+            </div>
+            <h3>Spider Man : Miles Morales</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis eos nulla molestiae! Ipsam reiciendis vero animi esse quo eos!
+            </p>
+            <a href="">Buy Now</a>
+        </div>
+
+        <div class="game right">
+            <div class="img">
+                <img class="image1" src="game3.jpg" alt="">
+                <img class="image2" src="game3-3d.png" alt="">
+            </div>
+            <h3>Spider Man 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam blanditiis eos nulla molestiae! Ipsam reiciendis vero animi esse quo eos!
+            </p>
+            <a href="">Buy Now</a>
+        </div>
+        
+
+    </div>
+</div>
+
+<hr>
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<div class="about" id="about">
+    <div class="info left">
+        <h2>
+            About <span>Us</span>
+        </h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolor ratione quae in, necessitatibus amet dolorum atque praesentium, quia aperiam nulla rerum tenetur maiores pariatur eius laborum perferendis fugiat sed!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolor ratione quae in, necessitatibus amet dolorum atque praesentium, quia aperiam nulla rerum tenetur maiores pariatur eius laborum perferendis fugiat sed!
+
+        </p>
+        <a href="#contact">Contact Us</a>
+    </div>
+    <div class="image right">
+        <img src="about.jpg" alt="">
+    </div>
+
+</div>
+<hr>
+<!-- ------------------------------------------ -->
+<!-- ------------------------------------------ -->
+<!-- ------------------------------------------ -->
+
+<div class="contact-us" id="contact">
+    <!-- <div class="about-btn reveal"><a>CONTACT US</a></div> -->
+    <div class="contact left">
+        <div class="form">
+            <h2>Contact <span>Us</span> </h2>
+            <p class="name">Samer Mohamed </p>
+            <div class="inputBx">
+                <p>Enter Name</p>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="inputBx">
+                <p>Enter Email</p>
+                <input type="text" placeholder="Your E-mail">
+            </div>
+            <div class="inputBx">
+                <p>Message</p>
+                <textarea placeholder="Type here..."></textarea>
+            </div>
+            <div class="send" id="send">
+                <a href="#contact" class="send-btn">Send</a>
+                <div class="social">
+                    <a target="_blank" href="https://github.com/SamerMo11"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/samer-mohamed-5b2586280"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100083281736623&mibextid=ZbWKwL"><i
+                            class="fab fa-facebook"></i></a>
+                    <a target="_blank" href="https://wa.me/qr/DSRQF7O6GN4JL1"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <!-- <p class="copy"> CopyWright @ <span>Samer Mohamed</span></p> -->
+        </div>
+        <img src="samer0.png" alt="Samer Mohamed" class="right">
+
+    </div>
+</div>
+<hr>
+
+<!-- ------------------------------------------------------ -->
+<!-- ------------------------------------------------------ -->
+<!-- ------------------------------------------------------ -->
+<!-- ------------------------------------------------------ -->
+
+<div class="samer">
+    <div class="foot">
+        <div class="img1 left ">
+            <img src="game2-3d.png" class="left">
+        </div>
+        <div class="links">
+            <img src="main-logo.png" alt="" class="reveal">
+            <div class="all-links">
+                <div class="links1 reveal">
+                    <a href="" id="link1">LINKS</a>
+                    <div class="main-links1">
+                    <a href="#home" id="movies">Home</a>
+                    <a href="#actors" id="characters">Actors</a>
+                    <a href="#movies" id="gallery">Movies</a>
+                    <a href="#games" id="games">Games</a>
+                    </div>
+                </div>
+                <div class="links2 reveal">
+                    <a href="" id="link2">Contact</a>
+                    <div class="main-links2">
+                        <a href="https://www.linkedin.com/in/samer-mohamed-5b2586280" target="_blank" id="lol">LinkedIn</a>
+                        <a href="https://github.com/SamerMo11" target="_blank" id="lol">GitHub</a>
+                        <a href="https://www.facebook.com/profile.php?id=100083281736623&mibextid=ZbWKwL" target="_blank" id="lol">Facebook</a>
+                        <a href="https://wa.me/qr/DSRQF7O6GN4JL1" target="_blank" id="lol">WhatsApp</a>
+                        </div>
+
+                </div>
+                <div class="links3 reveal">
+                    <a href="" id="link3">Support</a>
+                    <div class="main-links3">
+                        <a href="#" id="lol">Blog</a>
+                        <a href="#" id="lol">Help</a>
+                        <a href="#" id="lol">FAQ</a>
+                        </div>
+
+                </div>
+            </div>
+            
+            <p>CopyWright @ <span>SAMER MOHAMED</span></p>
+        </div>
+
+
+        <div class="img2  right">
+            <img src="game1-3d.png" class="right">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap.js"></script>
+    <script src="spidy.js"></script>
+</body>
+</html>
